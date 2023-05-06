@@ -1,5 +1,5 @@
 # API-Labb4
-##Get All People
+## Get All People
 *Request*
 >/Get All People
 ```
@@ -19,7 +19,7 @@ curl -X 'GET' \
   ......
   ]
 ```
-##Interests of people by their ID
+## Interests of people by their ID
 *Request*
 >/Interest By PersonID
 ```
@@ -38,7 +38,7 @@ curl -X 'GET' \
   ......
   ]
 ```
-##Links in interest by person ID
+## Links in interest by person ID
 >/api/PeopleInterest/Links in interest by Person ID
 ```
 curl -X 'GET' \
@@ -56,7 +56,7 @@ curl -X 'GET' \
   ......
   ]
 ```
-##New existing Interest for a Person
+## New existing Interest for a Person
 >/api/PeopleInterest/New Interest for person with id
 ```
 curl -X 'POST' \
@@ -68,7 +68,7 @@ curl -X 'POST' \
 ```
 New Interest was Added
 ```
-##New Link for a interest
+## New Link for a interest
 >/api/PeopleInterest/New Link for Interest
 ```
 curl -X 'POST' \
